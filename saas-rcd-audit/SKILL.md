@@ -1,5 +1,5 @@
 ---
-name: auditoria-saas-rcd
+name: saas-rcd-audit
 description: Audit a SaaS product for conversion, activation, retention, and expansion using Revenue Centric Design (RCD) and behavioral science. Use when reviewing or improving a SaaS landing page, hero, pricing page/tiers, onboarding, empty states, dashboard, cancellation flow, lifecycle emails, feature adoption, or churn/activation/trial-conversion metrics; when asked to find improvement points, run a product/UX/growth/CRO audit, reduce churn, raise activation, fix pricing, or apply cognitive biases ethically to a product. Produces a prioritized, phase-aware audit with each finding tagged to a specific bias or principle.
 license: MIT
 ---

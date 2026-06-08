@@ -1,4 +1,4 @@
-# auditoria-saas-rcd
+# saas-rcd-audit
 
 > An Agent Skill that audits a SaaS for **conversion, activation, retention, and expansion** using **Revenue Centric Design (RCD)** and behavioral science — and returns a prioritized, phase-aware list of improvement points, each tied to a named cognitive bias or principle.
 
@@ -9,14 +9,14 @@ Point it at a landing page, a pricing page, an onboarding flow, a dashboard, a c
 Via [skills.sh](https://skills.sh) / the Agent Skills CLI (works with Claude Code, Cursor, Copilot, Codex, and more):
 
 ```bash
-npx skills add gleydson/auditoria-saas-rcd
+npx skills add gleydson/saas-rcd-audit
 ```
 
 Or manually (Claude Code, personal skills):
 
 ```bash
-git clone git@github.com:gleydson/auditoria-saas-rcd.git
-ln -s "$(pwd)/auditoria-saas-rcd/auditoria-saas-rcd" ~/.claude/skills/auditoria-saas-rcd
+git clone git@github.com:gleydson/saas-rcd-audit.git
+ln -s "$(pwd)/saas-rcd-audit/saas-rcd-audit" ~/.claude/skills/saas-rcd-audit
 ```
 
 ## Use
@@ -33,7 +33,7 @@ It runs a 6-step workflow: calibrate to the **startup phase** → gate on **ICP*
 ## What's inside
 
 ```
-auditoria-saas-rcd/
+saas-rcd-audit/
 ├── SKILL.md                         # workflow, navigation, benchmarks, ethics gate
 ├── references/
 │   ├── revenue-centric-design.md    # the 9 RCD principles as audit lenses
